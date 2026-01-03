@@ -85,3 +85,9 @@ body div{
 
 /* recipe pages */
 
+.home-link{
+    text-align: center;
+    background-color: lightgray;
+    width: 90vh;
+    margin: 0 auto;
+}
