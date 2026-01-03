@@ -5,3 +5,80 @@
 }
 
 
+/* all pages */
+
+body{
+
+    background-color: gray;
+}
+
+body div{
+    margin: 0 auto;
+    background-color: lightgray;
+
+    width: 90vh;
+
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.heading{
+    text-align: center;
+    padding: 10px;
+    background-color: gray;
+}
+
+.heading .title{
+    margin: 10px;
+    padding: 5px;
+    background-color: lightgray;
+    color: black;
+    border: 3px solid black;
+
+
+
+    font-size: 2.5rem;
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* index.html (homepage) */
+
+.home-body{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.links-section{
+    padding: 20px;
+    height: 80vh;
+
+}
+
+.links-title{
+    background-color: gray;
+    padding: 5px;
+    margin-bottom: 15px;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+.links{
+    list-style: none;
+    border: 2px double black;
+    text-align: center;
+    background-color: gray;
+
+}
+
+
+.links li {
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
