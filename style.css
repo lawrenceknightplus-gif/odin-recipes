@@ -85,9 +85,37 @@ body div{
 
 /* recipe pages */
 
+.recipe-content img{
+
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.recipe-content .recipe-content-desc h2{
+    text-decoration: underline;
+    font-size: 2rem;
+    color: black;
+    background-color: gray;
+    
+}
+.recipe-content .recipe-content-desc p{
+
+    font-size: 18px;
+    background-color: gray;
+    padding: 10px;
+    color: white;
+}
+
+.section{
+    padding: 20px;
+
+}
+
 .home-link{
     text-align: center;
     background-color: lightgray;
     width: 90vh;
     margin: 0 auto;
+    margin-bottom: 20px;
 }
